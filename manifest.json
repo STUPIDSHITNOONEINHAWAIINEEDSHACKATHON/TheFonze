@@ -11,5 +11,9 @@
   },
   "permissions": [
    "activeTab"
-   ]
+   ],
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "css": ["./css/styles.css"]
+  }]
 }
