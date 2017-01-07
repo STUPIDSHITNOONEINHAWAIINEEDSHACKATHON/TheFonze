@@ -9,6 +9,13 @@
    "default_icon": "icon.png",
    "default_popup": "popup.html"
   },
+
+  "icons": {
+    "48": "/Assets/Frustrating-small.resized.png",
+    "96": "/Assets/Frustrating-medium.resized.png",
+    "128": "/Assets/Frustrating-large.resized.png"
+
+  }
   "permissions": [
    "activeTab"
    ]
