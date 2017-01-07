@@ -11,26 +11,23 @@
    "default_title": "Click here!"
   },
 
-  "content_scripts": [
-    {
-      "matches": ["*://*/*"],
-      "js": ["./js/search.js"]
-
-    }
-  ],
-
   "icons": {
     "48": "/Assets/Frustrating-small.resized.png",
     "96": "/Assets/Frustrating-medium.resized.png",
-    "128": "/Assets/Frustrating-large.resized.png"
+    "128": "/Assets/Frustrating-Large.resized.png"
 
   },
 
   "permissions": [
    "activeTab"
    ],
-  "content_scripts": [{
+
+  "content_scripts": [
+
+    {
     "matches": ["*://*/*"],
-    "css": ["./css/styles.css"]
-  }]
+    "css": ["./css/styles.css"],
+    "js": ["./js/search.js"]
+    }
+  ]
 }
