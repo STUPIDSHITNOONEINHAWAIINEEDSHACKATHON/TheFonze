@@ -6,7 +6,7 @@
   "version": "1.0",
 
   "browser_action": {
-   "default_icon": "icon.png",
+   "default_icon": "./Assets/Frustrating-small.resized.png",
    "default_popup": "popup.html",
    "default_title": "Click here!"
   },
@@ -19,7 +19,18 @@
     }
   ],
 
+  "icons": {
+    "48": "/Assets/Frustrating-small.resized.png",
+    "96": "/Assets/Frustrating-medium.resized.png",
+    "128": "/Assets/Frustrating-large.resized.png"
+
+  },
+
   "permissions": [
    "activeTab"
-   ]
+   ],
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "css": ["./css/styles.css"]
+  }]
 }
