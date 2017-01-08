@@ -3,7 +3,7 @@
 let inputFields = document.getElementsByTagName('input');
 
 for(let i = 0; i < inputFields.length; i++){
-  inputFields[i].value = "this onez 4 u JoN";
+  // inputFields[i].value = "this onez 4 u JoN";
   inputFields[i].addEventListener('keydown', function(event){
     switch(event.key){
       case "q":
