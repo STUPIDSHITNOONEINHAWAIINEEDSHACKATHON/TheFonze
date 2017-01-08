@@ -28,6 +28,7 @@
     "matches": ["*://*/*"],
     "css": ["./css/styles.css"],
     "js": ["./js/search.js", "./js/keyboard.js", "./js/clicks.js"]
+
     }
   ]
 }

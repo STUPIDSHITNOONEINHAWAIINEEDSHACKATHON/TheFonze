@@ -1,13 +1,11 @@
-document.addEventListener('contextmenu', (event) =>{
+window.addEventListener('contextmenu', function(event){
   event.preventDefault();
-  window.location.href = "https://www.pinterest.com/";
+  window.location.href = event.srcElement.href;
 });
 
-document.addEventListener('click', (event) =>{
+window.addEventListener('click', function(event){
+  alert('Who needs a left click anyway?');
   event.preventDefault();
-  // alert("NOPE");
-  // rightClick();
-  window.location.href = "http://www.google.com";
 
-
+  return false;
 });
