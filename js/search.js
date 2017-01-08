@@ -2,7 +2,7 @@
 
 
 window.onload = function() {
-  document.getElementsByTagName("BODY")[0].style.pointerEvents = "all";
+  // document.getElementsByTagName("BODY")[0].style.pointerEvents = "all";
   let links = document.getElementsByTagName("a");
   let inputs = document.getElementsByTagName("input");
   console.log(inputs);
