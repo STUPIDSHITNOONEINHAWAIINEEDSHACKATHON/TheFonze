@@ -10,14 +10,14 @@ function scrollUp() {
 
 function scrollUp2() {
 
-    window.scroll(0,1500);
+    window.scroll(0,800);
 }
 
       window.onscroll = function (){
-        setTimeout(scrollUp, 7500);
+        setTimeout(scrollUp, 2500);
         setTimeout(scrollUp2, 5000);
-        
+
       };
-  
+
 
 };
