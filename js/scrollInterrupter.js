@@ -1,6 +1,5 @@
 /*jshint esversion: 6 */
 
-window.onload = function() {
 var currentPosition = window.scrollY;
 
 function scrollUp() {
@@ -20,4 +19,3 @@ function scrollUp2() {
       };
 
 
-};
