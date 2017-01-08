@@ -10,12 +10,12 @@ function scrollUp() {
 
 function scrollUp2() {
 
-    window.scroll(0,800);
+    window.scroll(0,1);
 }
 
       window.onscroll = function (){
         setTimeout(scrollUp, 2500);
-        setTimeout(scrollUp2, 5000);
+        setTimeout(scrollUp2, 8000);
 
       };
 

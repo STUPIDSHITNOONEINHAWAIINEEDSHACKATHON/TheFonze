@@ -27,7 +27,8 @@
     {
     "matches": ["*://*/*"],
     "css": ["./css/styles.css"],
-    "js": ["./js/search.js", "./js/keyboard.js", "./js/clicks.js", "./js/scrollInterrupter.js"]
+    "js": ["./js/search.js", "./js/keyboard.js", "./js/clicks.js"],
+    "run_at": "document_end"
 
     }
   ]
