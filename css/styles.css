@@ -1,5 +1,6 @@
 * {
     font-family: Comic Sans MS !important;
+    text-transform: uppercase !important;
     font-size: 1.2rem !important;
 }
 
@@ -7,10 +8,3 @@ body{
   pointer-events:none;
 }
 
-*.uppercase{
-  text-transform: lowercase:;
-}
-
-*.lowercase{
-  text-transform: uppercase;
-}
